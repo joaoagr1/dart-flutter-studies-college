@@ -60,6 +60,10 @@ void exercicioColetions() {
 
   List<Veiculo> carrosOrcamento = carros.where((carro) => carro.getValor() >= 95000.00).toList();
 
+  hb20.historia(abreviacao: "abreviacao", criador: "criador");
+  hb20.historia(abreviacao: "abreviacao");
+
+
   carrosOrcamento.forEach((carro){
 
     print(carro.getModelo());
